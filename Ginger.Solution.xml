@@ -1,15 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="e088a77b-c9ff-4438-8094-8cbecc41a6b0" ItemType="Solution" CreatedBy="meni" Created="202303010550" GingerVersion="4.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202303010550" />
+<GingerRepositoryItem><Header ItemGuid="e088a77b-c9ff-4438-8094-8cbecc41a6b0" ItemType="Solution" CreatedBy="meni" Created="202303010550" GingerVersion="5.2.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202303010716" />
 <Solution EncryptedValidationString="L2fOMV98WXkh/Owu9eboJA==" Guid="e088a77b-c9ff-4438-8094-8cbecc41a6b0" Name="TEST_OTOMA" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="f9c2fabd-97c3-4459-8e3f-894c838652a7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
 </ApplicationPlatforms>
 
+<ApplitoolsConfiguration>
+<ApplitoolsConfiguration Guid="4740c67f-3411-4fa3-a426-b8e014ac1c9b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplitoolsConfiguration>
+
 <ExecutionLoggerConfigurationSetList>
-<ExecutionLoggerConfiguration DataPublishingPhase="PostExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="f706e916-c873-4318-bcec-817a3b3b47dc" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SealightsLog="No" SealightsReportedEntityLevel="BusinessFlow" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+<ExecutionLoggerConfiguration DataPublishingPhase="PostExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="f706e916-c873-4318-bcec-817a3b3b47dc" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
 </ExecutionLoggerConfigurationSetList>
 
 <HTMLReportsConfigurationSetList>
 <HTMLReportsConfiguration Guid="62d33ef2-fd35-4b9e-90b7-4fdf3b7af77f" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
 </HTMLReportsConfigurationSetList>
+
+<SealightsConfiguration>
+<SealightsConfiguration Guid="fd87e44e-8c14-4e92-a4fd-98855a27fe44" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsLog="No" SealightsReportedEntityLevel="BusinessFlow" SealightsTestRecommendations="No" />
+</SealightsConfiguration>
+
+<SolutionCategories>
+<SolutionCategory Category="Product" Guid="2dbe902e-9ec3-47bd-87f7-849fa4edb05b" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="5a381cbe-49f9-4c85-ac48-3a0658e604d3" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Product 1" />
+<SolutionCategoryValue Guid="5d76becf-1c40-45b1-8211-472410a8209c" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Product 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="TestType" Guid="088f7601-2595-4e73-a7f5-c4269e684b64" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="8ca504aa-a62b-4439-a2c7-798dbead0875" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Regression" />
+<SolutionCategoryValue Guid="1e531265-4ac3-441b-803e-e7f65ce32739" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Progression" />
+<SolutionCategoryValue Guid="5231547a-2406-4fe4-8f8c-b4bdabf321e4" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Sanity" />
+<SolutionCategoryValue Guid="8564e411-3388-4141-b322-7325b005f090" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Acceptance" />
+<SolutionCategoryValue Guid="17585726-1b91-4d98-88b9-98ad54f1b007" ParentGuid="00000000-0000-0000-0000-000000000000" Value="End to End" />
+<SolutionCategoryValue Guid="55798a74-6cf3-453f-84d5-fa7db491456b" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Security" />
+<SolutionCategoryValue Guid="59b275fc-a279-4073-89f9-1e51bd58a464" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Performance" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="Release" Guid="8bd37629-7eba-4eed-b081-62e36bd3a499" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="9fbccbc2-a2e1-4e07-a8f0-eec64fc828b8" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Release 1" />
+<SolutionCategoryValue Guid="23356138-c3fa-40dd-913b-5e6bb108ace6" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Release 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="Iteration" Guid="54f88737-d4e6-431b-a737-88f1189a386d" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="55b0439d-ca43-45fd-9486-7c5dd5ab5305" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Iteration 1" />
+<SolutionCategoryValue Guid="f2d09b69-80bb-4700-baa5-11f4e1b9bf94" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Iteration 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="UserCategory1" Guid="5394a748-d0a9-4e9a-ad84-89d94d8bd24d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<SolutionCategory Category="UserCategory2" Guid="81b9b419-0bcf-4e62-bbab-9596e65fc30c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<SolutionCategory Category="UserCategory3" Guid="6b473316-54c8-4816-a4d8-7ba6ea0bac7b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</SolutionCategories>
+
+<VRTConfiguration>
+<VRTConfiguration DifferenceTolerance="0.0" FailActionOnCheckpointMismatch="Yes" Guid="24e26736-53a5-4a30-8e73-e2e35228fe83" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</VRTConfiguration>
 </Solution></GingerRepositoryItem>
