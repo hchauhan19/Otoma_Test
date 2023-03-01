@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="bae1d2e1-c4f5-4b18-be22-76d376346663" ItemType="RunSetConfig" CreatedBy="meni" Created="202303011332" GingerVersion="4.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202303011332" />
+<RunSetConfig Guid="bae1d2e1-c4f5-4b18-be22-76d376346663" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoriesDefinitions>
+<SolutionCategoryDefinition Category="Product" Guid="ccf826a6-9ee1-49b4-907d-64b45fb2fcbb" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="TestType" Guid="4798af32-28d7-4d91-bacd-b1f48a2b182a" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="Release" Guid="f12b1991-ccc5-41f8-aee0-8b3937471bba" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="Iteration" Guid="25ffa7b4-e31e-4fb8-b162-478edcfe6c2a" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="UserCategory1" Guid="8b68cb2e-268b-4bf0-b296-0eccc8427e98" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="UserCategory2" Guid="8890184c-667b-40d4-92bc-8ef8289c89ac" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="UserCategory3" Guid="add1cbc8-4d64-46f5-a5b7-4ed378a9e09a" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+</CategoriesDefinitions>
+
+<GingerRunners>
+<GingerRunner Guid="958b0274-e26f-4ce7-b525-0082da1cc396" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="3ce6dda5-1ccf-4566-852f-400de751c7cb" AgentName="MyWebApp - Agent 1" AppID="c221f6af-5cee-4da8-ac17-bf148dbcf23a" AppName="MyWebApp" Guid="8432deb4-5709-4ad0-b265-8a1e2a01e896" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="c40ad699-1e91-4d92-885f-8b6fd67537a8" BusinessFlowInstanceGuid="3d3166f1-bd38-40c1-bee9-b9e18f9eca75" BusinessFlowIsActive="True" BusinessFlowName="Flow 1" Guid="a5ce719d-44a8-4840-bd1a-0457ced9aab9" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+
+<SelfHealingConfiguration>
+<SelfHealingConfig EnableSelfHealing="True" Guid="0e89aed9-588a-400c-85a4-fb832278174f" ParentGuid="00000000-0000-0000-0000-000000000000" ReprioritizePOMLocators="True" />
+</SelfHealingConfiguration>
+</RunSetConfig></GingerRepositoryItem>

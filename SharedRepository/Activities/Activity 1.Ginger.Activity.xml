@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="88244ba5-e7fb-423c-87b7-d1c8c5a6cba1" ItemType="Activity" CreatedBy="meni" Created="202303011208" GingerVersion="4.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202303011208" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="88244ba5-e7fb-423c-87b7-d1c8c5a6cba1" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="88244ba5-e7fb-423c-87b7-d1c8c5a6cba1" ItemType="Activity" CreatedBy="meni" Created="202303011208" GingerVersion="4.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202303011441" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="88244ba5-e7fb-423c-87b7-d1c8c5a6cba1" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
 <ActBrowserElement Active="True" Description="Browser Action" Guid="1f0c02da-c8f9-478b-94d8-867c9fbfb68b" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
