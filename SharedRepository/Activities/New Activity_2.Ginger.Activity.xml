@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="546c1796-8917-4c28-8e32-4dafa3f0a23a" ItemType="Activity" CreatedBy="meni" Created="202303011445" GingerVersion="4.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202303011445" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="New Activity_2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="546c1796-8917-4c28-8e32-4dafa3f0a23a" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActBrowserElement Active="True" Description="Browser Action" Guid="8cf93288-245c-444f-9887-7a29898669a6" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="39cb2652-08cf-4ebc-a848-8214d110d98d" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="e2eafc70-b228-4084-9cad-ee288129faa2" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="c3a475c7-1a57-4615-9dcc-f10837a3db3c" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="1388f904-7be8-4495-b02a-e9977bcf2285" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="6605e8ae-94f0-4e2d-a85e-a1a750f91002" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="UrlPOM" />
+<ActInputValue Guid="3b4d0d42-0b07-463d-b06b-bc97ab0a7557" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="70f3542d-8b65-4f05-a8f3-4f9ebbc3effb" Param="ImplicitWait" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="b3425bbf-e871-4c26-b9f3-6884044d48fd" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="71ab54e0-db2f-4bd1-aa9b-b2f524bbbbda" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity></GingerRepositoryItem>
