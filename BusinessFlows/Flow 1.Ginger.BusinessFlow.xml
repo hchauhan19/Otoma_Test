@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="a8fe0ed0-a500-45d6-8605-aac4c84955d7" ItemType="BusinessFlow" CreatedBy="meni" Created="202303010550" GingerVersion="5.2.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202303010718" />
-<BusinessFlow Guid="a8fe0ed0-a500-45d6-8605-aac4c84955d7" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<GingerRepositoryItem><Header ItemGuid="c40ad699-1e91-4d92-885f-8b6fd67537a8" ItemType="BusinessFlow" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202303011214" />
+<BusinessFlow Elapsed="10887" Guid="c40ad699-1e91-4d92-885f-8b6fd67537a8" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActivitiesGroupID="Group" ActivityName="POM Activity - Swag Labs 1" Guid="e32edcfc-315e-4f23-9f4f-c0b273edb89b" ParentGuid="e32edcfc-315e-4f23-9f4f-c0b273edb89b" Type="Link" />
+<Activity ActivitiesGroupID="Group" ActivityName="Activity 1" Guid="88244ba5-e7fb-423c-87b7-d1c8c5a6cba1" ParentGuid="88244ba5-e7fb-423c-87b7-d1c8c5a6cba1" Type="Link" />
 </Activities>
 
 <ActivitiesGroups>
-<ActivitiesGroup Guid="da9b90d1-6bc4-4af7-a57b-1e139b61e3f7" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesGroup Guid="7f6cdec3-652b-4432-b1bd-deb2cba34770" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e32edcfc-315e-4f23-9f4f-c0b273edb89b" ActivityName="POM Activity - Swag Labs 1" ActivityParentGuid="ee7690ad-a701-4dfb-8e2e-a2494ef61624" Guid="2766d3fb-651f-455f-8aec-a29bbbb1988c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="88244ba5-e7fb-423c-87b7-d1c8c5a6cba1" ActivityName="Activity 1" Guid="510f525b-6ade-4360-a4ff-9b736ac1f87b" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
 
 <TargetApplications>
-<TargetApplication AppName="MyWebApp" Guid="1204b834-0703-48a2-bae9-6f15c16d5a6b" LastExecutingAgentName="MyWebApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<TargetApplication AppName="MyWebApp" Guid="a515df2b-954c-4592-87a9-18b7dfcc769b" LastExecutingAgentName="MyWebApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </TargetApplications>
 </BusinessFlow></GingerRepositoryItem>
