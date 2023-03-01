@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="992c38a8-259f-4dc1-9974-e12b4be77655" ItemType="Activity" CreatedBy="meni" Created="202303011540" GingerVersion="4.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202303011542" />
+<GingerRepositoryItem><Header ItemGuid="992c38a8-259f-4dc1-9974-e12b4be77655" ItemType="Activity" CreatedBy="meni" Created="202303011540" GingerVersion="4.4.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202303011623" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="New Activity_2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="992c38a8-259f-4dc1-9974-e12b4be77655" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
 <ActUIElement Active="True" Description="SetText - input text user-name" Guid="b3dab918-14f0-4568-9b13-297d586e9b98" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
