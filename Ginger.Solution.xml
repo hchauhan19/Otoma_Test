@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e088a77b-c9ff-4438-8094-8cbecc41a6b0" ItemType="Solution" CreatedBy="meni" Created="202303010550" GingerVersion="4.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202303010550" />
+<Solution EncryptedValidationString="L2fOMV98WXkh/Owu9eboJA==" Guid="e088a77b-c9ff-4438-8094-8cbecc41a6b0" Name="TEST_OTOMA" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="MyWebApp" Guid="f9c2fabd-97c3-4459-8e3f-894c838652a7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration DataPublishingPhase="PostExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="f706e916-c873-4318-bcec-817a3b3b47dc" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SealightsLog="No" SealightsReportedEntityLevel="BusinessFlow" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="62d33ef2-fd35-4b9e-90b7-4fdf3b7af77f" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+</HTMLReportsConfigurationSetList>
+</Solution></GingerRepositoryItem>
