@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="3ce6dda5-1ccf-4566-852f-400de751c7cb" ItemType="Agent" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202303021040" />
-<Agent AgentType="Driver" DriverType="SeleniumChrome" Guid="3ce6dda5-1ccf-4566-852f-400de751c7cb" Name="MyWebApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Publish="True">
+<GingerRepositoryItem><Header ItemGuid="3ce6dda5-1ccf-4566-852f-400de751c7cb" ItemType="Agent" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202303030906" />
+<Agent AgentType="Driver" DriverType="SeleniumChrome" Guid="3ce6dda5-1ccf-4566-852f-400de751c7cb" Name="MyWebApp - Agent" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Publish="True">
 <DriverConfiguration>
 <DriverConfigParam Description="Proxy Server:Port" Guid="29772384-dd34-40e3-8412-6af0df55bb5d" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <DriverConfigParam Description="Proxy Auto Config Url" Guid="11dc8141-7e2c-4294-bc1a-165a0c641035" Parameter="ProxyAutoConfigUrl" ParentGuid="00000000-0000-0000-0000-000000000000" />

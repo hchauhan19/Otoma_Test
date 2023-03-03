@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9b64c768-501d-4039-81c9-00b075c01dc7" ItemType="Solution" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202303011205" />
+<GingerRepositoryItem><Header ItemGuid="9b64c768-501d-4039-81c9-00b075c01dc7" ItemType="Solution" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202303030908" />
 <Solution EncryptedValidationString="L2fOMV98WXkh/Owu9eboJA==" Guid="9b64c768-501d-4039-81c9-00b075c01dc7" Name="Saucedemo" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ALMConfigs>
+<ALMConfig AlmType="QC" Guid="2cfbd326-24ca-4d9b-b4eb-489a7a0b60ff" JiraTestingALM="None" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ALMConfig ALMConfigPackageFolderPath="~\\Configurations\JiraConfigurationsPackage" ALMDomain="_NoDomain_" ALMProjectKey="10302" ALMProjectName="GINGERMBT" ALMServerURL="http://99.80.254.65:8080" AlmType="Jira" DefaultAlm="True" Guid="66a8ae44-ad1f-43ca-ab4a-3d4697fb433e" JiraTestingALM="Xray" ParentGuid="00000000-0000-0000-0000-000000000000" UseRest="True" />
+</ALMConfigs>
+
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="c221f6af-5cee-4da8-ac17-bf148dbcf23a" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
 </ApplicationPlatforms>
@@ -12,4 +17,43 @@
 <HTMLReportsConfigurationSetList>
 <HTMLReportsConfiguration Guid="81359265-3ee8-4cf5-8fe9-5e371593babd" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
 </HTMLReportsConfigurationSetList>
+
+<SolutionCategories>
+<SolutionCategory Category="Product" Guid="f3342a14-493a-47b2-a0e1-78c278f9f9e9" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="c3d13614-cb3a-469c-8ff3-1726dc965a67" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Product 1" />
+<SolutionCategoryValue Guid="3b93d596-a7c2-40db-8350-cf9414b76f37" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Product 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="TestType" Guid="c504547b-8482-4f54-8986-932d4e8e4db0" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="b17a3375-eead-43ea-a127-28cda25b91f1" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Regression" />
+<SolutionCategoryValue Guid="e189ece2-16bf-4cb0-9c1e-1e3948212bbf" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Progression" />
+<SolutionCategoryValue Guid="ca9eb018-e97b-4309-bd68-f2deef4e60d9" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Sanity" />
+<SolutionCategoryValue Guid="5c0b3126-ec10-4e45-ab72-741f20b655fd" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Acceptance" />
+<SolutionCategoryValue Guid="d7763628-10a4-48a3-9dc4-8fd82da8293a" ParentGuid="00000000-0000-0000-0000-000000000000" Value="End to End" />
+<SolutionCategoryValue Guid="772e34cb-4092-42c0-bbff-31d8a7b24289" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Security" />
+<SolutionCategoryValue Guid="4e0ea5b9-367f-411a-9221-29fd745bf585" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Performance" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="Release" Guid="97522355-d2f6-4981-a8c3-c88b2a9dbd09" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="fb0441ce-e220-4300-aed6-be5ac0adedde" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Release 1" />
+<SolutionCategoryValue Guid="f8d5993e-b866-497b-ac66-a38c8a3c1d32" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Release 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="Iteration" Guid="d464d8de-ecd6-4024-b0a8-3ad758499de3" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="cc36c1ad-15f2-4651-aea1-eb0a0968ceeb" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Iteration 1" />
+<SolutionCategoryValue Guid="6fb5e87f-cd88-4f4a-80b4-c50a80c89903" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Iteration 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="UserCategory1" Guid="37294c56-aae5-4868-90b9-fe31f2bea869" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<SolutionCategory Category="UserCategory2" Guid="c1bbe22b-d4f4-4802-8b3d-c185e27af02d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<SolutionCategory Category="UserCategory3" Guid="09d14d3e-44fe-48e7-b1bf-ce6247f24666" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</SolutionCategories>
+
+<Tags>
+<RepositoryItemTag Guid="50b6cd4f-7a67-490a-9a09-b6281414d82e" Name="HEllo" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Tags>
 </Solution></GingerRepositoryItem>
