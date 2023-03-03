@@ -1,0 +1,33 @@
+HTTP/1.1 OK
+Connection: keep-alive
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1674527012
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+CF-Cache-Status: HIT
+Age: 25122
+Server-Timing: cf-q-config;dur=6.0000002122251e-06
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=e7MSwGkbusCn4FmA%2FQRR5uePtM9KiJ9WfPmpmhmYuax7g103mP5GjaX7yYnJKuRJCmrqmLbBV20zYM%2B1cmtdSDGNwXU0NXxhmWiK4iYojG1m9ObDy2y2WjnxwY26DMfH1G1CHZg2c917jvB%2BkX59"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+CF-RAY: 7a2105094f7e7798-LHR
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+Accept-Ranges: bytes
+Cache-Control: max-age=43200
+Date: Fri, 03 Mar 2023 09:58:12 GMT
+ETag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+Server: cloudflare
+Via: 1.1 vegur
+X-Powered-By: Express
+Content-Length: 292
+Content-Type: application/json; charset=utf-8
+Expires: -1
+
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}

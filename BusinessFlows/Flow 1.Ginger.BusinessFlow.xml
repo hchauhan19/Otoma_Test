@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="c40ad699-1e91-4d92-885f-8b6fd67537a8" ItemType="BusinessFlow" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="17" LastUpdateBy="meni" LastUpdate="202303030639" />
+<GingerRepositoryItem><Header ItemGuid="c40ad699-1e91-4d92-885f-8b6fd67537a8" ItemType="BusinessFlow" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="23" LastUpdateBy="meni" LastUpdate="202303031000" />
 <BusinessFlow Elapsed="10887" Guid="c40ad699-1e91-4d92-885f-8b6fd67537a8" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="New Activity_1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="546c1796-8917-4c28-8e32-4dafa3f0a23a" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="25%" TargetApplication="MyWebApp" Type="Regular">
@@ -143,19 +143,56 @@
 </ActUIElement>
 </Acts>
 </Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="API_REST_GET" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="e1fbc9e4-39b6-4fdb-8f54-76e6250d5d22" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<Acts>
+<ActWebAPIRest Active="True" Description="WebAPI REST Action" Guid="2b3a6545-fb7a-49b3-abee-c1c677bdfcfe" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="084996ac-9ad4-4d62-8084-d5458c798ed1" Param="EndPointURL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://jsonplaceholder.typicode.com/posts/1" />
+<ActInputValue Guid="4fbf8c53-04a3-4e2e-b022-3ac408da30e2" Param="URLUser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="d6e8fe90-ed8a-42b9-bc0c-50a7f01f4fd5" Param="URLDomain" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="cda7f920-42ad-452d-980c-a3ce8f5d99f4" Param="URLPass" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="ff40bd39-181d-4a45-ac00-68f59709e784" Param="NetworkCredentialsRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Default" />
+<ActInputValue Guid="a26e7ed8-e5fc-4f43-8b7d-a4a198f18ef9" Param="RequestBodyTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeText" />
+<ActInputValue Guid="b41dc2ca-032b-44d3-a07e-bbedcab4670a" Param="CertificateTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllSSL" />
+<ActInputValue Guid="7f1f8e0f-63c7-4bfb-af0f-d046ace066f2" Param="DoNotFailActionOnBadRespose" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="5ebfe850-4652-444c-aba9-8c65812d3fc1" Param="UseLegacyJSONParsing" ParentGuid="00000000-0000-0000-0000-000000000000" Value="True" />
+<ActInputValue Guid="846c3f93-f02e-42b9-bfa9-c9c9fb9d739a" Param="RequestBody" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="74f8dfa4-2fe7-481a-a7d3-c16e53b07635" Param="ImportRequestFile" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="3df9d17b-67e7-485b-8d17-84ff1f5214a4" Param="CertificatePath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="975cb50c-fc0b-4532-85bb-a13e4eb4d926" Param="CertificatePassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="8471188d-f966-430c-86d5-063a59e46b35" Param="ImportCetificateFile" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="a034a20c-f730-497b-a17a-ba3bd845578e" Param="SecurityType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="None" />
+<ActInputValue Guid="c5e62bc4-3b57-4d4e-bec2-e62d174936f7" Param="AuthorizationType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NoAuthentication" />
+<ActInputValue Guid="e70ff2d3-d116-40a8-8dc4-6edf9d954e12" Param="AuthUsername" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="5d679741-425f-4732-a594-c13b1a83589c" Param="AuthPassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="b4e97837-051f-4a47-b4e6-b6f2ac5f24af" Param="CookieMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Session" />
+<ActInputValue Guid="fd65cbb2-91ba-450d-935e-4d2f27e918c5" Param="RequestType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GET" />
+<ActInputValue Guid="a2490d73-ce00-428a-ace5-0b34ea926cd3" Param="ReqHttpVersion" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HTTPV11" />
+<ActInputValue Guid="4adc9c72-341e-4761-9828-10ae15ee6abb" Param="ContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
+<ActInputValue Guid="6349222c-3132-41a9-93a0-c569bcb6a216" Param="ResponseContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
+<ActInputValue Guid="b81d2398-80a2-45c6-bf18-ed42bd352274" Param="TemplateFileNameFileBrowser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+</ActWebAPIRest>
+</Acts>
+</Activity>
 </Activities>
 
 <ActivitiesGroups>
 <ActivitiesGroup Guid="7f6cdec3-652b-4432-b1bd-deb2cba34770" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="546c1796-8917-4c28-8e32-4dafa3f0a23a" ActivityName="New Activity_1" Guid="a9145731-9363-4436-8c64-3d72723fd16e" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="992c38a8-259f-4dc1-9974-e12b4be77655" ActivityName="New Activity_2" Guid="1c85c63d-8ada-4cb8-bb89-0693457f5d48" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="292ac25d-e2a6-4ce2-b059-c28ebcd80e38" ActivityName="New Activity_3" Guid="03fff054-1b07-473c-a82d-87c424038dac" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="546c1796-8917-4c28-8e32-4dafa3f0a23a" ActivityName="New Activity_1" Guid="5f1a18c9-8678-4db8-b3c5-c9ad4b0edb86" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="992c38a8-259f-4dc1-9974-e12b4be77655" ActivityName="New Activity_2" Guid="3298d52d-8aad-4bf4-b559-a6681eef1cc9" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="292ac25d-e2a6-4ce2-b059-c28ebcd80e38" ActivityName="New Activity_3" Guid="91b73e59-3c94-45f1-8ebc-9b0095836260" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e1fbc9e4-39b6-4fdb-8f54-76e6250d5d22" ActivityName="API_REST_GET" Guid="43dbc081-fb52-4e6c-937c-7ee0a181f3bc" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
 
 <TargetApplications>
 <TargetApplication AppName="MyWebApp" Guid="a515df2b-954c-4592-87a9-18b7dfcc769b" LastExecutingAgentName="MyWebApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<TargetApplication AppName="MyWebServicesApp" Guid="1bb8180f-cd47-48ae-9ec9-979ab32505de" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </TargetApplications>
 </BusinessFlow></GingerRepositoryItem>

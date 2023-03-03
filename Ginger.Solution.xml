@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9b64c768-501d-4039-81c9-00b075c01dc7" ItemType="Solution" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202303030908" />
+<GingerRepositoryItem><Header ItemGuid="9b64c768-501d-4039-81c9-00b075c01dc7" ItemType="Solution" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="5" LastUpdateBy="meni" LastUpdate="202303030951" />
 <Solution EncryptedValidationString="L2fOMV98WXkh/Owu9eboJA==" Guid="9b64c768-501d-4039-81c9-00b075c01dc7" Name="Saucedemo" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ALMConfigs>
 <ALMConfig AlmType="QC" Guid="2cfbd326-24ca-4d9b-b4eb-489a7a0b60ff" JiraTestingALM="None" ParentGuid="00000000-0000-0000-0000-000000000000" />
@@ -8,6 +8,7 @@
 
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="c221f6af-5cee-4da8-ac17-bf148dbcf23a" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
+<ApplicationPlatform AppName="MyWebServicesApp" Description="WebServices Application" Guid="ef212ddf-8f3c-43cb-bedd-0469e2007f75" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" />
 </ApplicationPlatforms>
 
 <ExecutionLoggerConfigurationSetList>
