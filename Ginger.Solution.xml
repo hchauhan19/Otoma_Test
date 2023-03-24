@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9b64c768-501d-4039-81c9-00b075c01dc7" ItemType="Solution" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="5" LastUpdateBy="meni" LastUpdate="202303030951" />
+<GingerRepositoryItem><Header ItemGuid="9b64c768-501d-4039-81c9-00b075c01dc7" ItemType="Solution" CreatedBy="meni" Created="202303011205" GingerVersion="4.4.0.0" Version="12" LastUpdateBy="meni" LastUpdate="202303241728" />
 <Solution EncryptedValidationString="L2fOMV98WXkh/Owu9eboJA==" Guid="9b64c768-501d-4039-81c9-00b075c01dc7" Name="Saucedemo" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ALMConfigs>
 <ALMConfig AlmType="QC" Guid="2cfbd326-24ca-4d9b-b4eb-489a7a0b60ff" JiraTestingALM="None" ParentGuid="00000000-0000-0000-0000-000000000000" />
@@ -11,13 +11,21 @@
 <ApplicationPlatform AppName="MyWebServicesApp" Description="WebServices Application" Guid="ef212ddf-8f3c-43cb-bedd-0469e2007f75" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" />
 </ApplicationPlatforms>
 
+<ApplitoolsConfiguration>
+<ApplitoolsConfiguration Guid="a824ff11-4393-4b38-8365-23945574f19b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplitoolsConfiguration>
+
 <ExecutionLoggerConfigurationSetList>
-<ExecutionLoggerConfiguration DataPublishingPhase="PostExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="ad908db0-76fa-4d97-8140-2ad6be61e560" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SealightsLog="No" SealightsReportedEntityLevel="BusinessFlow" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+<ExecutionLoggerConfiguration CentralLoggerEndPointUrl="https://gingertest:6001/" DataPublishingPhase="DuringExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="ad908db0-76fa-4d97-8140-2ad6be61e560" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="Yes" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
 </ExecutionLoggerConfigurationSetList>
 
 <HTMLReportsConfigurationSetList>
 <HTMLReportsConfiguration Guid="81359265-3ee8-4cf5-8fe9-5e371593babd" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
 </HTMLReportsConfigurationSetList>
+
+<SealightsConfiguration>
+<SealightsConfiguration Guid="7bb55500-902f-418a-87f4-4ab16fc841f0" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsLog="No" SealightsReportedEntityLevel="BusinessFlow" SealightsSessionTimeout="14400" />
+</SealightsConfiguration>
 
 <SolutionCategories>
 <SolutionCategory Category="Product" Guid="f3342a14-493a-47b2-a0e1-78c278f9f9e9" ParentGuid="00000000-0000-0000-0000-000000000000">
@@ -57,4 +65,8 @@
 <Tags>
 <RepositoryItemTag Guid="50b6cd4f-7a67-490a-9a09-b6281414d82e" Name="HEllo" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </Tags>
+
+<VRTConfiguration>
+<VRTConfiguration FailActionOnCheckpointMismatch="Yes" Guid="3a0e6973-7066-4fbc-8072-3829731f7a17" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</VRTConfiguration>
 </Solution></GingerRepositoryItem>
